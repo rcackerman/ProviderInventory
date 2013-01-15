@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>PyPI Mirror Status</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Here is a list of the PyPI mirrors and the last time they were updated">
+    <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon">
+    <!-- styles -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand">Provider Inventory</a>
+            <ul class="nav">
+              <li><a href="/providers">All Providers</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid">
+      <div class="row-fluid">
+       <div class="span12">
+		{% block content %}<!-- main content area -->{% endblock %}
+	   </div>
+	  </div>
+	</div>
+	
+</body>
+</html>
